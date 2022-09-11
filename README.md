@@ -2,9 +2,10 @@
 Розв'язок задачі для відбіркового завдання хакатону IASA DS Champ від команди Team GARCH
 
 # Summary
+- [Report](#Report) <- ви тут
 - [EDA](./notebooks/exploration.ipynb) - дослідження датасету, та змін розподілів з часом
 - [Model training](./notebooks/training.ipynb) - Multioutput LightGBM на кожен з таргетів, кросс-валідація по часу
-- Model inferencing
+- [Model inferencing](./src)
 
 
 # Report
@@ -27,7 +28,7 @@
 
 ## Модель
 > Training & analysis - [Notebook](./notebooks/training.ipynb) \
-> Inference - Coming soon
+> Inference - [Script](./src)
 
 Фінальною цільовою змінною є сума трьох ltv різної природи, прогнозуватимемо кожне з них окремо, а потім сумуватимемо,
 оскільки кожен таргет може залежати від різних ознак.
